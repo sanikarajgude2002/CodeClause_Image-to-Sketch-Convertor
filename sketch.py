@@ -9,7 +9,7 @@ import cv2
 
 
 # take image input and assign variable to it
-img = "4.jpeg"
+img = "4.jfif"
 
 
 # function to convert image into sketch
@@ -30,7 +30,7 @@ def dodge(front, back):
 	return final_sketch.astype('uint8')
 
 
-ss = imageio.imread(img)
+ss = imageio.v2.imread
 gray = rgb2gray(ss)
 
 i = 255-gray
