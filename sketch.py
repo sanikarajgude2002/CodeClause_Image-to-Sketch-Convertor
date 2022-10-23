@@ -9,7 +9,7 @@ import cv2
 
 
 # take image input and assign variable to it
-img = "4.jfif"
+img = "4.jpeg"
 
 
 # function to convert image into sketch
